@@ -1,0 +1,32 @@
+.download-warp {
+	width: calc(100vw - 60px);
+	margin: 0 auto;
+}
+.success-warp {
+	text-align: center;
+}
+.success-warp img{
+	width: 70px;
+	margin: 30px 0 25px;
+	/*margin: 0 auto;
+	display: block;*/
+}
+.success-warp p {
+	margin: 0;
+	line-height: 1.2;
+}
+.success-warp .success-text {
+	margin-bottom: 25px;
+	font-size: 18px;
+	color: #000000;
+	font-weight: bold;
+}
+.success-warp .friend {
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #26a341;
+}
+.success-warp .friend-text {
+	font-size: 12px;
+	color: #666666;
+}
