@@ -30,3 +30,15 @@
 	font-size: 12px;
 	color: #666666;
 }
+.download-warp .download-ios {
+	background: url(image/anniu_tijiao-2x.png) no-repeat;
+	width: 100%;
+	border-radius: 4px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+.download-warp .download-android {
+	border: 1px solid #cccccc;
+	width: 100%;
+	border-radius: 4px;
+}
