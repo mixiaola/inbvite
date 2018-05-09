@@ -1,3 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+input{
+    outline: none;
+}
+.index{
+    padding: 20px 30px;
+}
+.code{
+    border-bottom: 1px solid #ddd;
+    padding: 14px 0;
+}
+.code span{
+    float: right;
+}
 .download-warp {
 	width: calc(100vw - 60px);
 	margin: 0 auto;
