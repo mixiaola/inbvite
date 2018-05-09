@@ -8,12 +8,35 @@ input{
 .index{
     padding: 20px 30px;
 }
-.code{
+.index .code{
     border-bottom: 1px solid #ddd;
     padding: 14px 0;
 }
-.code span{
+.index .code span{
     float: right;
+}
+.index .btn{
+    background: url('image/anniu_tijiao-2x.png');
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background-size: 100%;
+    margin-top: 30px;
+}
+.index .dowmload-link{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #31aa3b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index .dowmload-link img{
+    margin-left: 4px;
+    height: 11px;
 }
 .download-warp {
 	width: calc(100vw - 60px);
