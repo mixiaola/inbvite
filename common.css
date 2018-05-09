@@ -76,9 +76,52 @@ input{
 	border-radius: 4px;
 	margin-top: 30px;
 	margin-bottom: 15px;
+
 }
 .download-warp .download-android {
 	border: 1px solid #cccccc;
 	width: 100%;
 	border-radius: 4px;
+	color: #666666;
+}
+.download-ios, .download-android{
+	height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+}
+.download-ios img, .download-android img {
+	height: 25px;
+	margin-right: 10px;
+}
+.scan-img {
+	width: 80px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.scan-text {
+	text-align: center;
+	color: #666666;
+}
+.bottom-introduce {
+	margin-bottom: 40px;
+}
+.bottom-introduce .green-line{
+	display: inline-block;
+    width: 2px;
+    height: 17px;
+    background: #31aa3b;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.bottom-introduce .item-title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #333333;
+}
+.bottom-introduce .introduce-item p {
+	font-size: 14px;
+	color: #666666;
 }
