@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-input{
+input,select{
     outline: none;
 }
 .index{
@@ -14,6 +14,16 @@ input{
 }
 .index .code span{
     float: right;
+}
+.index .code .encode{
+    float: right;
+    width: 25%;
+    display: inline-block;
+    height: 25px;
+}
+.index .code .encode img{
+    width: 100%;
+    height: 100%;
 }
 .index .btn{
     background: url('image/anniu_tijiao-2x.png');
