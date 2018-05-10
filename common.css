@@ -14,6 +14,14 @@ input,select{
 }
 .index .code span{
     float: right;
+    color: #31aa3b;
+}
+.index .code input::-webkit-input-placeholder,
+.index .phone input::-webkit-input-placeholder {
+	color: #cccccc;
+}
+.index .code-text {
+	color: #333333;
 }
 .index .code .encode{
     float: right;
@@ -24,6 +32,14 @@ input,select{
 .index .code .encode img{
     width: 100%;
     height: 100%;
+}
+.index .phone {
+
+	padding: 14px 0;
+	border-bottom: 1px solid #ddd;
+}
+.index .phone option {
+	color: #333333;
 }
 .index .btn{
     background: url('image/anniu_tijiao-2x.png');
@@ -113,10 +129,13 @@ input,select{
 	margin-top: 30px;
 }
 .scan-text {
+	margin-top: 25px;
 	text-align: center;
 	color: #666666;
+
 }
 .bottom-introduce {
+	margin-top: 30px;
 	margin-bottom: 40px;
 }
 .bottom-introduce .green-line{
@@ -135,4 +154,6 @@ input,select{
 .bottom-introduce .introduce-item p {
 	font-size: 14px;
 	color: #666666;
+	line-height: 1.385;
+	margin: 15px;
 }
