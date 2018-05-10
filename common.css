@@ -15,13 +15,15 @@ input,select{
 .index .code span{
     float: right;
     color: #31aa3b;
+    margin-top: 4px;
 }
 .index .code input::-webkit-input-placeholder,
 .index .phone input::-webkit-input-placeholder {
 	color: #cccccc;
 }
 .index .code-text {
-	color: #333333;
+    color: #333333;
+    font-size: 13px;
 }
 .index .code .encode{
     float: right;
