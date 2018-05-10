@@ -87,7 +87,7 @@ input,select{
 	border-radius: 4px;
 	margin-top: 30px;
 	margin-bottom: 15px;
-
+    color: #fff;
 }
 .download-warp .download-android {
 	border: 1px solid #cccccc;
